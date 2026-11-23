@@ -1,53 +1,38 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Praktikum Git & Web - LKPD</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praktikum Git & Web - LKPD</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Header & Navigasi Semantik -->
-<header>
-<nav>
-<a href="#">Beranda</a> | <a href="#">Tentang</a>
-</nav>
-</header>
-<!-- Elemen Heading sesuai petunjuk LKPD -->
+  <!-- Header & Navigasi Semantik -->
+  <header>
+    <nav>
+      <a href="#">Beranda</a> | <a href="#">Tentang</a>
+    </nav>
+  </header>
 
-<h1 id="judulUtama">Halaman Awal</h1>
+  <!-- Elemen Heading sesuai petunjuk LKPD -->
+  <h1 id="judulUtama">Halaman Awal</h1>
 
+  <!-- Elemen dengan Class Selector .kartu-profil -->
+  <div class="kartu-profil">
+    <p>Profil Siswa</p>
+  </div>
 
+  <!-- Footer Semantik -->
+  <footer>
+    <p>&copy; 2026 Tim Pengembang</p>
+  </footer>
 
-<!-- Elemen dengan Class Selector .kartu-profil -->
-
-<div class="kartu-profil">
-
-<p>Profil Siswa</p>
-
-</div>
-
-
-
-<!-- Footer Semantik -->
-
-<footer>
-
-<p>&copy; 2026 Tim Pengembang</p>
-
-</footer>
-
-
-
-<!-- Script JavaScript untuk memanipulasi judul dinamis -->
-
-<script>
-
-const judul = document.getElementById("judulUtama");
-
-if (judul) {
-judul.textContent = "Selamat Datang Siswa";
-}
-</script>
+  <!-- Script JavaScript untuk memanipulasi judul dinamis -->
+  <script>
+    const judul = document.getElementById("judulUtama");
+    if (judul) {
+      judul.textContent = "Selamat Datang Siswa";
+    }
+  </script>
 </body>
-</html> 
+</html>
